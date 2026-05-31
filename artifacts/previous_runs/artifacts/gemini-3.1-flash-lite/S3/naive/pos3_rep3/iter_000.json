@@ -1,0 +1,34 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EjQKMgEMOdbH+VU4mR0mCav/QMJkOzY8qaKCIslmahZ8AJkcfcX7c2RiJm0P/2wLLwle0rXe"
+          },
+          "function": {
+            "arguments": "{\"confidence\": 1, \"x\": 450, \"y\": 367}",
+            "name": "click_at"
+          },
+          "id": "call_796f7b8b77784f8888e8b7065c10__thought__EjQKMgEMOdbH+VU4mR0mCav/QMJkOzY8qaKCIslmahZ8AJkcfcX7c2RiJm0P/2wLLwle0rXe",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "thinking_blocks": [],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EjQKMgEMOdbH+VU4mR0mCav/QMJkOzY8qaKCIslmahZ8AJkcfcX7c2RiJm0P/2wLLwle0rXe"
+        ]
+      }
+    },
+    "x": 450.0,
+    "y": 367.0
+  }
+}

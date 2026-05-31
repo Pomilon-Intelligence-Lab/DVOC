@@ -1,0 +1,118 @@
+{
+  "trial_id": "gemini-3.1-flash-lite-S6-dval",
+  "model_key": "gemini-3.1-flash-lite",
+  "task_id": "S6",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 30.9,
+  "iterations": 8,
+  "model_calls": 8,
+  "elapsed": 37.9,
+  "start_position": {
+    "x": 194,
+    "y": 92
+  },
+  "target_position": {
+    "x": 190,
+    "y": 370
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 194,
+        "y": 92
+      },
+      "error": {
+        "dx": 19.0,
+        "dy": 421.0
+      },
+      "confidence": 0.8,
+      "distance_to_target": 278.0
+    },
+    {
+      "draft": {
+        "x": 213.0,
+        "y": 513.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -175.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 144.8
+    },
+    {
+      "draft": {
+        "x": 213.0,
+        "y": 425.5
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -75.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 60.1
+    },
+    {
+      "draft": {
+        "x": 213.0,
+        "y": 406.8
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -45.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 43.4
+    },
+    {
+      "draft": {
+        "x": 213.0,
+        "y": 395.5
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -20.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 34.3
+    },
+    {
+      "draft": {
+        "x": 213.0,
+        "y": 390.5
+      },
+      "error": {
+        "dx": 25.0,
+        "dy": -28.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 30.8
+    },
+    {
+      "draft": {
+        "x": 219.2,
+        "y": 383.5
+      },
+      "error": {
+        "dx": -19.0,
+        "dy": 21.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 32.2
+    },
+    {
+      "draft": {
+        "x": 214.5,
+        "y": 388.8
+      },
+      "error": {
+        "dx": 14.0,
+        "dy": -26.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 30.9
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "trial_id": "gemma-4-26b-via-or-S4-naive",
+  "model_key": "gemma-4-26b-via-or",
+  "task_id": "S4",
+  "method": "naive",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 1,
+  "model_calls": 1,
+  "elapsed": 0.1,
+  "start_position": null,
+  "target_position": null,
+  "iteration_history": null,
+  "error": "litellm.AuthenticationError: AuthenticationError: OpenrouterException - {\"error\":{\"message\":\"Missing Authentication header\",\"code\":401}}"
+}

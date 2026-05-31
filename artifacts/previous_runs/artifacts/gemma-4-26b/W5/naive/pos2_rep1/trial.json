@@ -1,0 +1,28 @@
+{
+  "trial_id": "gemma-4-26b-W5-naive",
+  "model_key": "gemma-4-26b",
+  "task_id": "W5",
+  "method": "naive",
+  "success": true,
+  "final_dist": 153.3,
+  "iterations": 3,
+  "model_calls": 3,
+  "elapsed": 46.7,
+  "start_position": null,
+  "target_position": {
+    "x": 640,
+    "y": 357.5
+  },
+  "iteration_history": [
+    {
+      "iteration": 2,
+      "response": {
+        "x": 500.0,
+        "y": 295.0,
+        "confidence": 1.0
+      },
+      "distance": 153.3
+    }
+  ],
+  "error": null
+}

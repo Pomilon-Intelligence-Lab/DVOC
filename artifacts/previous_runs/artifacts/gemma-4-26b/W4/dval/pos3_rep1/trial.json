@@ -1,0 +1,130 @@
+{
+  "trial_id": "gemma-4-26b-W4-dval",
+  "model_key": "gemma-4-26b",
+  "task_id": "W4",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 22.8,
+  "iterations": 9,
+  "model_calls": 9,
+  "elapsed": 297.1,
+  "start_position": {
+    "x": 308,
+    "y": 151
+  },
+  "target_position": {
+    "x": 1014.9,
+    "y": 410.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 308,
+        "y": 151
+      },
+      "error": {
+        "dx": 551.0,
+        "dy": 360.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 753.1
+    },
+    {
+      "draft": {
+        "x": 859.0,
+        "y": 511.0
+      },
+      "error": {
+        "dx": 118.0,
+        "dy": -140.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 185.5
+    },
+    {
+      "draft": {
+        "x": 918.0,
+        "y": 441.0
+      },
+      "error": {
+        "dx": 77.0,
+        "dy": -40.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 101.6
+    },
+    {
+      "draft": {
+        "x": 937.2,
+        "y": 431.0
+      },
+      "error": {
+        "dx": 64.0,
+        "dy": -28.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 80.4
+    },
+    {
+      "draft": {
+        "x": 953.2,
+        "y": 424.0
+      },
+      "error": {
+        "dx": 53.0,
+        "dy": -18.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 63.2
+    },
+    {
+      "draft": {
+        "x": 966.5,
+        "y": 419.5
+      },
+      "error": {
+        "dx": 43.0,
+        "dy": -4.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 49.3
+    },
+    {
+      "draft": {
+        "x": 977.2,
+        "y": 418.5
+      },
+      "error": {
+        "dx": 36.0,
+        "dy": -1.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 38.5
+    },
+    {
+      "draft": {
+        "x": 986.2,
+        "y": 418.2
+      },
+      "error": {
+        "dx": 28.0,
+        "dy": -3.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 29.7
+    },
+    {
+      "draft": {
+        "x": 993.2,
+        "y": 417.5
+      },
+      "error": {
+        "dx": 21.0,
+        "dy": -2.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 22.8
+    }
+  ],
+  "error": null
+}

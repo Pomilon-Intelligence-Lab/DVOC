@@ -1,0 +1,70 @@
+{
+  "trial_id": "gemma-4-26b-S3-dval",
+  "model_key": "gemma-4-26b",
+  "task_id": "S3",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 8.3,
+  "iterations": 4,
+  "model_calls": 4,
+  "elapsed": 237.2,
+  "start_position": {
+    "x": 308,
+    "y": 151
+  },
+  "target_position": {
+    "x": 360,
+    "y": 220
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 308,
+        "y": 151
+      },
+      "error": {
+        "dx": 66.0,
+        "dy": 115.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 86.4
+    },
+    {
+      "draft": {
+        "x": 374.0,
+        "y": 266.0
+      },
+      "error": {
+        "dx": -17.0,
+        "dy": -74.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 48.1
+    },
+    {
+      "draft": {
+        "x": 365.5,
+        "y": 229.0
+      },
+      "error": {
+        "dx": -10.0,
+        "dy": -5.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 10.5
+    },
+    {
+      "draft": {
+        "x": 363.0,
+        "y": 227.8
+      },
+      "error": {
+        "dx": -7.0,
+        "dy": -3.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 8.3
+    }
+  ],
+  "error": null
+}

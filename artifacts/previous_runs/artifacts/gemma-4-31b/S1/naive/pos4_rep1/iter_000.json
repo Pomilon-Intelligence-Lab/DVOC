@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"x\": 500, \"y\": 500, \"confidence\": 1}",
+            "name": "click_at"
+          },
+          "id": "call_f8ad953dd1594db381a0c64341cf__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the \"CLICK ME\" button.\nThe \"CLICK ME\" button is located in the center of the image.\nThe button is green and has the text \"CLICK ME\" in white.\nLooking at the image, the button's center is approximately (500, 500).\nLet me refine the coordinates.\nThe image size is 1000x700 (approx, based on the aspect ratio, but let's assume it's scaled).\nWait, let's look at the bounding box of the button.\nIt's from roughly x=450 to x=550 and y=460 to y=540.\nCenter x = (450 + 550) / 2 = 500\nCenter y = (460 + 540) / 2 = 500\nThe coordinates are (500, 500).",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the \"CLICK ME\" button.\nThe \"CLICK ME\" button is located in the center of the image.\nThe button is green and has the text \"CLICK ME\" in white.\nLooking at the image, the button's center is approximately (500, 500).\nLet me refine the coordinates.\nThe image size is 1000x700 (approx, based on the aspect ratio, but let's assume it's scaled).\nWait, let's look at the bounding box of the button.\nIt's from roughly x=450 to x=550 and y=460 to y=540.\nCenter x = (450 + 550) / 2 = 500\nCenter y = (460 + 540) / 2 = 500\nThe coordinates are (500, 500)."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 500.0,
+    "y": 500.0
+  }
+}

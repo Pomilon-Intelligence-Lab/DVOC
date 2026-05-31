@@ -1,0 +1,21 @@
+{
+  "trial_id": "gemma-4-26b-S5-dval",
+  "model_key": "gemma-4-26b",
+  "task_id": "S5",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 0,
+  "model_calls": 2,
+  "elapsed": 4666.0,
+  "start_position": {
+    "x": 308,
+    "y": 151
+  },
+  "target_position": {
+    "x": 325,
+    "y": 240
+  },
+  "iteration_history": null,
+  "error": "litellm.Timeout: Connection timed out after None seconds."
+}

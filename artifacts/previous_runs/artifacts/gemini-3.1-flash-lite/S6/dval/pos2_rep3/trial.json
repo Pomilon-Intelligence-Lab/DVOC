@@ -1,0 +1,70 @@
+{
+  "trial_id": "gemini-3.1-flash-lite-S6-dval",
+  "model_key": "gemini-3.1-flash-lite",
+  "task_id": "S6",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 31.8,
+  "iterations": 4,
+  "model_calls": 4,
+  "elapsed": 11.9,
+  "start_position": {
+    "x": 361,
+    "y": 205
+  },
+  "target_position": {
+    "x": 190,
+    "y": 370
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 361,
+        "y": 205
+      },
+      "error": {
+        "dx": -237.0,
+        "dy": 393.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 237.6
+    },
+    {
+      "draft": {
+        "x": 124.0,
+        "y": 598.0
+      },
+      "error": {
+        "dx": 114.0,
+        "dy": -395.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 237.4
+    },
+    {
+      "draft": {
+        "x": 181.0,
+        "y": 400.5
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 0.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 31.8
+    },
+    {
+      "draft": {
+        "x": 181.0,
+        "y": 400.5
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 0.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 31.8
+    }
+  ],
+  "error": null
+}

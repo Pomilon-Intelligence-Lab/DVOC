@@ -1,0 +1,70 @@
+{
+  "trial_id": "gemma-4-31b-W2-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "W2",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 13.1,
+  "iterations": 4,
+  "model_calls": 4,
+  "elapsed": 132.6,
+  "start_position": {
+    "x": 361,
+    "y": 205
+  },
+  "target_position": {
+    "x": 379.5,
+    "y": 30
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 361,
+        "y": 205
+      },
+      "error": {
+        "dx": 17.0,
+        "dy": -246.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 176.0
+    },
+    {
+      "draft": {
+        "x": 378.0,
+        "y": 0.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 30.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 30.0
+    },
+    {
+      "draft": {
+        "x": 378.0,
+        "y": 15.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 8.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 15.1
+    },
+    {
+      "draft": {
+        "x": 378.0,
+        "y": 17.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 18.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 13.1
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "iteration": 0,
+  "draft": {
+    "x": 361.0,
+    "y": 205.0
+  },
+  "model_input": "You are a DVOC (Draft-Verify-Action Loop) verifier. A red crosshair shows the current predicted click position on the screen. A fixed blue circle provides spatial reference.\n\nCall report_offset(dx, dy, confidence) with the pixel offset from the crosshair to the target element center.\ndx: pixels right (negative = left). dy: pixels down (negative = up).\nconfidence: 0.0 (uncertain) to 1.0 (certain).\n\nOnly report dx=0, dy=0 when the crosshair is within a few pixels of the target. If uncertain, set lower confidence so the loop keeps refining.\n\nTask: Click the CLICK ME button\n\nCall report_offset().",
+  "model_output": {
+    "raw_message": {
+      "content": "The crosshair is to the left and above the CLICK ME button. I will report an offset to move the crosshair down and to the right to center it on the button.\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "function": {
+            "arguments": "{\"dy\": 70, \"confidence\": 0.8, \"dx\": 30}",
+            "name": "report_offset"
+          },
+          "id": "call_d31939d3b3304042b4727da1c509",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "thinking_blocks": [],
+      "provider_specific_fields": null
+    },
+    "dx": 30.0,
+    "dy": 70.0,
+    "confidence": 0.8
+  }
+}

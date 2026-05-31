@@ -1,0 +1,21 @@
+{
+  "trial_id": "openrouter-free-vision-S5-dval",
+  "model_key": "openrouter-free-vision",
+  "task_id": "S5",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 0,
+  "model_calls": 1,
+  "elapsed": 0.1,
+  "start_position": {
+    "x": 638,
+    "y": 124
+  },
+  "target_position": {
+    "x": 325,
+    "y": 240
+  },
+  "iteration_history": null,
+  "error": "litellm.AuthenticationError: AuthenticationError: OpenrouterException - {\"error\":{\"message\":\"Missing Authentication header\",\"code\":401}}"
+}

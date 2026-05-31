@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"x\": 52, \"y\": 39, \"confidence\": 1}",
+            "name": "click_at"
+          },
+          "id": "call_091f6897b74d4ce0b6c7169ccbd2__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on a target element in the provided image.\nLooking at the image, there is a small green rectangle in the top left corner.\nThis green rectangle is the target element.\nI need to find the center coordinates of this green rectangle.\n\nCoordinates of the green rectangle:\nTop-left: (15, 12)\nBottom-right: (88, 66)\nCenter x = (15 + 88) / 2 = 103 / 2 = 51.5\nCenter y = (12 + 66) / 2 = 78 / 2 = 39\n\nConfidence is high since there's only one distinct element.",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on a target element in the provided image.\nLooking at the image, there is a small green rectangle in the top left corner.\nThis green rectangle is the target element.\nI need to find the center coordinates of this green rectangle.\n\nCoordinates of the green rectangle:\nTop-left: (15, 12)\nBottom-right: (88, 66)\nCenter x = (15 + 88) / 2 = 103 / 2 = 51.5\nCenter y = (12 + 66) / 2 = 78 / 2 = 39\n\nConfidence is high since there's only one distinct element."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 52.0,
+    "y": 39.0
+  }
+}

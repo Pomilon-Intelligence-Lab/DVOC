@@ -1,0 +1,21 @@
+{
+  "trial_id": "nemotron-12b-vl-W2-dval",
+  "model_key": "nemotron-12b-vl",
+  "task_id": "W2",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 0,
+  "model_calls": 1,
+  "elapsed": 0.4,
+  "start_position": {
+    "x": 638,
+    "y": 124
+  },
+  "target_position": {
+    "x": 379.5,
+    "y": 30
+  },
+  "iteration_history": null,
+  "error": "litellm.AuthenticationError: AuthenticationError: OpenrouterException - {\"error\":{\"message\":\"Missing Authentication header\",\"code\":401}}"
+}

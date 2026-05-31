@@ -1,0 +1,15 @@
+{
+  "trial_id": "gemini-3.1-flash-lite-W1-naive",
+  "model_key": "gemini-3.1-flash-lite",
+  "task_id": "W1",
+  "method": "naive",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 1,
+  "model_calls": 1,
+  "elapsed": 5255.4,
+  "start_position": null,
+  "target_position": null,
+  "iteration_history": null,
+  "error": "litellm.APIConnectionError: GeminiException - [Errno -3] Temporary failure in name resolution"
+}

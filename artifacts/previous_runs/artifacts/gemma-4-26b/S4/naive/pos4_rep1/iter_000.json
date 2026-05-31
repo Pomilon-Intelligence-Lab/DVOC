@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"confidence\": 1, \"x\": 54, \"y\": 41}",
+            "name": "click_at"
+          },
+          "id": "call_d9a4d2bfea814d50bf0337cbfe9a__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the green element in the top left corner of the image.\nThe green element is a small rectangle at the top left.\nLooking at the image, the green rectangle is located at roughly (54, 41).\nLet's refine the coordinates.\nThe image size is 1000x750.\nThe green rectangle starts at (15, 15) and ends at around (93, 67).\nCenter would be around (54, 41).",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the green element in the top left corner of the image.\nThe green element is a small rectangle at the top left.\nLooking at the image, the green rectangle is located at roughly (54, 41).\nLet's refine the coordinates.\nThe image size is 1000x750.\nThe green rectangle starts at (15, 15) and ends at around (93, 67).\nCenter would be around (54, 41)."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 54.0,
+    "y": 41.0
+  }
+}

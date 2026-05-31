@@ -1,0 +1,15 @@
+{
+  "trial_id": "gemma-4-31b-S2-naive",
+  "model_key": "gemma-4-31b",
+  "task_id": "S2",
+  "method": "naive",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 2,
+  "model_calls": 2,
+  "elapsed": 144.6,
+  "start_position": null,
+  "target_position": null,
+  "iteration_history": null,
+  "error": "litellm.Timeout: Connection timed out after None seconds."
+}

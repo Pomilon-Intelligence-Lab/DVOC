@@ -1,0 +1,94 @@
+{
+  "trial_id": "gemini-3.1-flash-lite-W1-dval",
+  "model_key": "gemini-3.1-flash-lite",
+  "task_id": "W1",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 102.4,
+  "iterations": 6,
+  "model_calls": 6,
+  "elapsed": 21.4,
+  "start_position": {
+    "x": 308,
+    "y": 151
+  },
+  "target_position": {
+    "x": 640,
+    "y": 470.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 308,
+        "y": 151
+      },
+      "error": {
+        "dx": 276.0,
+        "dy": 497.0
+      },
+      "confidence": 0.8,
+      "distance_to_target": 460.8
+    },
+    {
+      "draft": {
+        "x": 584.0,
+        "y": 648.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -100.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 186.1
+    },
+    {
+      "draft": {
+        "x": 584.0,
+        "y": 598.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -45.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 139.3
+    },
+    {
+      "draft": {
+        "x": 584.0,
+        "y": 586.8
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -32.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 129.0
+    },
+    {
+      "draft": {
+        "x": 584.0,
+        "y": 578.8
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -90.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 121.9
+    },
+    {
+      "draft": {
+        "x": 584.0,
+        "y": 556.2
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -100.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 102.4
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "trial_id": "gemma-4-31b-W5-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "W5",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 0,
+  "model_calls": 6,
+  "elapsed": 219.4,
+  "start_position": {
+    "x": 194,
+    "y": 92
+  },
+  "target_position": {
+    "x": 640,
+    "y": 357.5
+  },
+  "iteration_history": null,
+  "error": "litellm.AuthenticationError: AuthenticationError: OpenrouterException - {\"error\":{\"message\":\"Missing Authentication header\",\"code\":401}}"
+}

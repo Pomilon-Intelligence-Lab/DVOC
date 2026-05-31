@@ -1,0 +1,202 @@
+{
+  "trial_id": "gemma-4-31b-W3-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "W3",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 106.8,
+  "iterations": 15,
+  "model_calls": 15,
+  "elapsed": 381.9,
+  "start_position": {
+    "x": 184,
+    "y": 426
+  },
+  "target_position": {
+    "x": 492.0,
+    "y": 215.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 184,
+        "y": 426
+      },
+      "error": {
+        "dx": 242.0,
+        "dy": -318.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 373.1
+    },
+    {
+      "draft": {
+        "x": 426.0,
+        "y": 108.0
+      },
+      "error": {
+        "dx": -40.0,
+        "dy": 170.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 126.1
+    },
+    {
+      "draft": {
+        "x": 406.0,
+        "y": 193.0
+      },
+      "error": {
+        "dx": 66.0,
+        "dy": 8.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 88.9
+    },
+    {
+      "draft": {
+        "x": 422.5,
+        "y": 195.0
+      },
+      "error": {
+        "dx": -35.0,
+        "dy": 85.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 72.5
+    },
+    {
+      "draft": {
+        "x": 413.8,
+        "y": 216.2
+      },
+      "error": {
+        "dx": 60.0,
+        "dy": -20.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 78.2
+    },
+    {
+      "draft": {
+        "x": 428.8,
+        "y": 211.2
+      },
+      "error": {
+        "dx": -43.0,
+        "dy": 67.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 63.4
+    },
+    {
+      "draft": {
+        "x": 418.0,
+        "y": 228.0
+      },
+      "error": {
+        "dx": -33.0,
+        "dy": 52.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 75.0
+    },
+    {
+      "draft": {
+        "x": 409.8,
+        "y": 241.0
+      },
+      "error": {
+        "dx": 59.0,
+        "dy": -50.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 86.1
+    },
+    {
+      "draft": {
+        "x": 424.5,
+        "y": 228.5
+      },
+      "error": {
+        "dx": -40.0,
+        "dy": 50.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 68.7
+    },
+    {
+      "draft": {
+        "x": 414.5,
+        "y": 241.0
+      },
+      "error": {
+        "dx": -29.0,
+        "dy": 39.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 81.6
+    },
+    {
+      "draft": {
+        "x": 407.2,
+        "y": 250.8
+      },
+      "error": {
+        "dx": 68.0,
+        "dy": -65.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 91.8
+    },
+    {
+      "draft": {
+        "x": 424.2,
+        "y": 234.5
+      },
+      "error": {
+        "dx": -39.0,
+        "dy": 46.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 70.4
+    },
+    {
+      "draft": {
+        "x": 414.5,
+        "y": 246.0
+      },
+      "error": {
+        "dx": -29.0,
+        "dy": 34.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 83.3
+    },
+    {
+      "draft": {
+        "x": 407.2,
+        "y": 254.5
+      },
+      "error": {
+        "dx": -22.0,
+        "dy": 26.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 93.3
+    },
+    {
+      "draft": {
+        "x": 401.8,
+        "y": 261.0
+      },
+      "error": {
+        "dx": -16.0,
+        "dy": 19.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 101.1
+    }
+  ],
+  "error": null
+}

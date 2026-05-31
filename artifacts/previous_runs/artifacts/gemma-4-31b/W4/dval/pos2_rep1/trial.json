@@ -1,0 +1,118 @@
+{
+  "trial_id": "gemma-4-31b-W4-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "W4",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 34.7,
+  "iterations": 8,
+  "model_calls": 8,
+  "elapsed": 414.3,
+  "start_position": {
+    "x": 361,
+    "y": 205
+  },
+  "target_position": {
+    "x": 1014.9,
+    "y": 410.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 361,
+        "y": 205
+      },
+      "error": {
+        "dx": 513.0,
+        "dy": 281.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 685.5
+    },
+    {
+      "draft": {
+        "x": 874.0,
+        "y": 486.0
+      },
+      "error": {
+        "dx": 108.0,
+        "dy": -104.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 159.9
+    },
+    {
+      "draft": {
+        "x": 928.0,
+        "y": 434.0
+      },
+      "error": {
+        "dx": 66.0,
+        "dy": -34.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 90.1
+    },
+    {
+      "draft": {
+        "x": 944.5,
+        "y": 425.5
+      },
+      "error": {
+        "dx": 53.0,
+        "dy": -14.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 72.0
+    },
+    {
+      "draft": {
+        "x": 957.8,
+        "y": 422.0
+      },
+      "error": {
+        "dx": 41.0,
+        "dy": -10.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 58.3
+    },
+    {
+      "draft": {
+        "x": 968.0,
+        "y": 419.5
+      },
+      "error": {
+        "dx": 38.0,
+        "dy": -3.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 47.8
+    },
+    {
+      "draft": {
+        "x": 977.5,
+        "y": 418.8
+      },
+      "error": {
+        "dx": 15.0,
+        "dy": 0.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 38.3
+    },
+    {
+      "draft": {
+        "x": 981.2,
+        "y": 418.8
+      },
+      "error": {
+        "dx": 12.0,
+        "dy": 0.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 34.7
+    }
+  ],
+  "error": null
+}

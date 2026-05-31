@@ -1,0 +1,178 @@
+{
+  "trial_id": "gemma-4-31b-W4-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "W4",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 27.8,
+  "iterations": 13,
+  "model_calls": 13,
+  "elapsed": 610.1,
+  "start_position": {
+    "x": 308,
+    "y": 151
+  },
+  "target_position": {
+    "x": 1014.9,
+    "y": 410.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 308,
+        "y": 151
+      },
+      "error": {
+        "dx": 490.0,
+        "dy": 421.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 753.1
+    },
+    {
+      "draft": {
+        "x": 798.0,
+        "y": 572.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 0.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 270.5
+    },
+    {
+      "draft": {
+        "x": 798.0,
+        "y": 572.0
+      },
+      "error": {
+        "dx": 173.0,
+        "dy": -218.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 270.5
+    },
+    {
+      "draft": {
+        "x": 841.2,
+        "y": 517.5
+      },
+      "error": {
+        "dx": 138.0,
+        "dy": -148.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 204.0
+    },
+    {
+      "draft": {
+        "x": 875.8,
+        "y": 480.5
+      },
+      "error": {
+        "dx": 107.0,
+        "dy": -95.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 155.8
+    },
+    {
+      "draft": {
+        "x": 902.5,
+        "y": 456.8
+      },
+      "error": {
+        "dx": 86.0,
+        "dy": -62.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 121.6
+    },
+    {
+      "draft": {
+        "x": 924.0,
+        "y": 441.2
+      },
+      "error": {
+        "dx": 70.0,
+        "dy": -43.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 96.0
+    },
+    {
+      "draft": {
+        "x": 941.5,
+        "y": 430.5
+      },
+      "error": {
+        "dx": 56.0,
+        "dy": -25.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 76.1
+    },
+    {
+      "draft": {
+        "x": 955.5,
+        "y": 424.2
+      },
+      "error": {
+        "dx": 43.0,
+        "dy": -10.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 61.0
+    },
+    {
+      "draft": {
+        "x": 966.2,
+        "y": 421.8
+      },
+      "error": {
+        "dx": 37.0,
+        "dy": -11.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 50.0
+    },
+    {
+      "draft": {
+        "x": 975.5,
+        "y": 419.0
+      },
+      "error": {
+        "dx": 34.0,
+        "dy": 0.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 40.4
+    },
+    {
+      "draft": {
+        "x": 984.0,
+        "y": 419.0
+      },
+      "error": {
+        "dx": 18.0,
+        "dy": 0.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 32.1
+    },
+    {
+      "draft": {
+        "x": 988.5,
+        "y": 419.0
+      },
+      "error": {
+        "dx": 14.0,
+        "dy": -6.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 27.8
+    }
+  ],
+  "error": null
+}

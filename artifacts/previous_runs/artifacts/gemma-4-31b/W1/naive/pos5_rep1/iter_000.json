@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"x\": 502, \"confidence\": 1, \"y\": 652}",
+            "name": "click_at"
+          },
+          "id": "call_018252448b9b4a96afab277711ad__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants to click on the \"Sign In\" button.\nLooking at the image, the \"Sign In\" button is a blue button in the center of the white card.\n\nCoordinates:\nThe button's bounding box is roughly:\nleft: 354\ntop: 621\nright: 650\nbottom: 683\n\nCenter:\nx = (354 + 650) / 2 = 502\ny = (621 + 683) / 2 = 652",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants to click on the \"Sign In\" button.\nLooking at the image, the \"Sign In\" button is a blue button in the center of the white card.\n\nCoordinates:\nThe button's bounding box is roughly:\nleft: 354\ntop: 621\nright: 650\nbottom: 683\n\nCenter:\nx = (354 + 650) / 2 = 502\ny = (621 + 683) / 2 = 652"
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 502.0,
+    "y": 652.0
+  }
+}

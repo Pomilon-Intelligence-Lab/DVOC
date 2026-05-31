@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"y\": 560, \"confidence\": 1, \"x\": 500}",
+            "name": "click_at"
+          },
+          "id": "call_b7363e0a5bcf4f9ba76d3f309741__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the 'Settings' button.\nLooking at the image, the 'Settings' button is part of a menu inside a central box.\nThe 'Settings' text and icon are located between 'Profile' and 'Logout'.\n\nCoordinates for 'Settings':\nIt's roughly in the middle of the menu box.\nThe menu box is at roughly (500, 500) in a 1000x1000 scaled image.\nLet's estimate the center of 'Settings'.\nThe 'Settings' element is roughly at y=560.\nThe x-coordinate is around 500.",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the 'Settings' button.\nLooking at the image, the 'Settings' button is part of a menu inside a central box.\nThe 'Settings' text and icon are located between 'Profile' and 'Logout'.\n\nCoordinates for 'Settings':\nIt's roughly in the middle of the menu box.\nThe menu box is at roughly (500, 500) in a 1000x1000 scaled image.\nLet's estimate the center of 'Settings'.\nThe 'Settings' element is roughly at y=560.\nThe x-coordinate is around 500."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 500.0,
+    "y": 560.0
+  }
+}

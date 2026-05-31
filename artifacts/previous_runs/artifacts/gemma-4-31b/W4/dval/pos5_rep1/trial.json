@@ -1,0 +1,202 @@
+{
+  "trial_id": "gemma-4-31b-W4-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "W4",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 29.9,
+  "iterations": 15,
+  "model_calls": 15,
+  "elapsed": 863.3,
+  "start_position": {
+    "x": 638,
+    "y": 124
+  },
+  "target_position": {
+    "x": 1014.9,
+    "y": 410.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 638,
+        "y": 124
+      },
+      "error": {
+        "dx": 160.0,
+        "dy": 448.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 473.5
+    },
+    {
+      "draft": {
+        "x": 798.0,
+        "y": 572.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -170.0
+      },
+      "confidence": 0.8,
+      "distance_to_target": 270.5
+    },
+    {
+      "draft": {
+        "x": 798.0,
+        "y": 487.0
+      },
+      "error": {
+        "dx": 170.0,
+        "dy": -102.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 230.0
+    },
+    {
+      "draft": {
+        "x": 840.5,
+        "y": 461.5
+      },
+      "error": {
+        "dx": 138.0,
+        "dy": -68.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 181.7
+    },
+    {
+      "draft": {
+        "x": 875.0,
+        "y": 444.5
+      },
+      "error": {
+        "dx": -78.0,
+        "dy": 124.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 144.0
+    },
+    {
+      "draft": {
+        "x": 855.5,
+        "y": 475.5
+      },
+      "error": {
+        "dx": 124.0,
+        "dy": -90.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 172.2
+    },
+    {
+      "draft": {
+        "x": 886.5,
+        "y": 453.0
+      },
+      "error": {
+        "dx": -89.0,
+        "dy": 119.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 135.3
+    },
+    {
+      "draft": {
+        "x": 864.2,
+        "y": 482.8
+      },
+      "error": {
+        "dx": 120.0,
+        "dy": -100.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 167.1
+    },
+    {
+      "draft": {
+        "x": 894.2,
+        "y": 457.8
+      },
+      "error": {
+        "dx": 86.0,
+        "dy": -71.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 129.6
+    },
+    {
+      "draft": {
+        "x": 915.8,
+        "y": 440.0
+      },
+      "error": {
+        "dx": 73.0,
+        "dy": -24.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 103.5
+    },
+    {
+      "draft": {
+        "x": 934.0,
+        "y": 434.0
+      },
+      "error": {
+        "dx": 60.0,
+        "dy": -35.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 84.3
+    },
+    {
+      "draft": {
+        "x": 949.0,
+        "y": 425.2
+      },
+      "error": {
+        "dx": 48.0,
+        "dy": -8.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 67.6
+    },
+    {
+      "draft": {
+        "x": 961.0,
+        "y": 423.2
+      },
+      "error": {
+        "dx": 37.0,
+        "dy": -6.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 55.4
+    },
+    {
+      "draft": {
+        "x": 970.2,
+        "y": 421.8
+      },
+      "error": {
+        "dx": 39.0,
+        "dy": 0.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 46.1
+    },
+    {
+      "draft": {
+        "x": 980.0,
+        "y": 421.8
+      },
+      "error": {
+        "dx": 28.0,
+        "dy": -3.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 36.7
+    }
+  ],
+  "error": null
+}

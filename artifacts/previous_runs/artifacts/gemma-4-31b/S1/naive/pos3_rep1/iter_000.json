@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"y\": 500, \"x\": 500, \"confidence\": 1}",
+            "name": "click_at"
+          },
+          "id": "call_4809cfc17d954c1fb85e58297323__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the element with the text \"CLICK ME\".\nLooking at the image, there is a green button in the center that says \"CLICK ME\".\nI need to find the center coordinates of this button.\nThe button is located roughly in the middle of the image.\nImage size is 1000x750 (estimated based on typical screenshot sizes, but I should just look at the image).\nActually, I can see the button. It's a rectangle.\nCenter of the button is approximately at x=500, y=500.\nLet's be more precise.\nThe button is from x=453 to x=547 and y=460 to y=540 (approx).\nActually, the white border is part of the target.\nLeft: 453, Right: 547, Top: 458, Bottom: 542.\nCenter X = (453 + 547) / 2 = 500\nCenter Y = (458 + 542) / 2 = 500\nLet's re-examine.\nThe button is definitely in the center.\nX = 500, Y = 500 seems like a good estimate.",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the element with the text \"CLICK ME\".\nLooking at the image, there is a green button in the center that says \"CLICK ME\".\nI need to find the center coordinates of this button.\nThe button is located roughly in the middle of the image.\nImage size is 1000x750 (estimated based on typical screenshot sizes, but I should just look at the image).\nActually, I can see the button. It's a rectangle.\nCenter of the button is approximately at x=500, y=500.\nLet's be more precise.\nThe button is from x=453 to x=547 and y=460 to y=540 (approx).\nActually, the white border is part of the target.\nLeft: 453, Right: 547, Top: 458, Bottom: 542.\nCenter X = (453 + 547) / 2 = 500\nCenter Y = (458 + 542) / 2 = 500\nLet's re-examine.\nThe button is definitely in the center.\nX = 500, Y = 500 seems like a good estimate."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 500.0,
+    "y": 500.0
+  }
+}

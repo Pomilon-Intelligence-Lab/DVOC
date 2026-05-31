@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"y\": 500, \"confidence\": 1, \"x\": 507}",
+            "name": "click_at"
+          },
+          "id": "call_a8b723a5ab374c1f8656c85f77c5__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the green rectangle in the center of the image.\nThe green rectangle is located at approximately (507, 500) in a 1000x1000 coordinate system.\nWait, the image is 1024x768? No, I should use the normalized coordinates.\nThe green rectangle is a small horizontal bar.\nIts center is roughly at x=507, y=500.",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the green rectangle in the center of the image.\nThe green rectangle is located at approximately (507, 500) in a 1000x1000 coordinate system.\nWait, the image is 1024x768? No, I should use the normalized coordinates.\nThe green rectangle is a small horizontal bar.\nIts center is roughly at x=507, y=500."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 507.0,
+    "y": 500.0
+  }
+}

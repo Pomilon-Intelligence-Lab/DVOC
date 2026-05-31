@@ -1,0 +1,21 @@
+{
+  "trial_id": "gemini-3.1-flash-lite-W1-dval",
+  "model_key": "gemini-3.1-flash-lite",
+  "task_id": "W1",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 0,
+  "model_calls": 4,
+  "elapsed": 287.5,
+  "start_position": {
+    "x": 194,
+    "y": 92
+  },
+  "target_position": {
+    "x": 640,
+    "y": 467
+  },
+  "iteration_history": null,
+  "error": "litellm.RateLimitError: litellm.RateLimitError: geminiException - {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor yo"
+}

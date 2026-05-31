@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"confidence\": 1, \"y\": 368, \"x\": 237}",
+            "name": "click_at"
+          },
+          "id": "call_0baa6535ba834039935cd0ab39d5__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on a button labeled \"CLICK\".\nThere are several buttons labeled \"CLICK\" with different colors.\nI will pick one of them. Let's pick the green one in the top left.\n\nCoordinates for buttons:\n1. Green top-left: (237, 368)\n2. Green top-middle: (490, 368)\n3. Red top-right: (741, 368)\n4. Blue bottom-left: (237, 617)\n5. Green bottom-middle: (490, 617)\n6. Yellow bottom-right: (741, 617)\n\nLet's go with the first one.",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on a button labeled \"CLICK\".\nThere are several buttons labeled \"CLICK\" with different colors.\nI will pick one of them. Let's pick the green one in the top left.\n\nCoordinates for buttons:\n1. Green top-left: (237, 368)\n2. Green top-middle: (490, 368)\n3. Red top-right: (741, 368)\n4. Blue bottom-left: (237, 617)\n5. Green bottom-middle: (490, 617)\n6. Yellow bottom-right: (741, 617)\n\nLet's go with the first one."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 237.0,
+    "y": 368.0
+  }
+}

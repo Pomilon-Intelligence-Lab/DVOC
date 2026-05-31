@@ -1,0 +1,21 @@
+{
+  "trial_id": "gemma-4-31b-S1-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "S1",
+  "method": "dvoc",
+  "success": false,
+  "final_dist": 999,
+  "iterations": 0,
+  "model_calls": 2,
+  "elapsed": 164.9,
+  "start_position": {
+    "x": 184,
+    "y": 426
+  },
+  "target_position": {
+    "x": 400,
+    "y": 300
+  },
+  "iteration_history": null,
+  "error": "litellm.Timeout: Connection timed out after None seconds."
+}

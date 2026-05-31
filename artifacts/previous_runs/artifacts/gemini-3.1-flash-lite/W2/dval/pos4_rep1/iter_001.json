@@ -1,0 +1,39 @@
+{
+  "iteration": 1,
+  "draft": {
+    "x": 297.0,
+    "y": 39.0
+  },
+  "model_input": "You are a DVOC (Draft-Verify-Action Loop) verifier. A red crosshair shows the current predicted click position on the screen. A fixed blue circle provides spatial reference.\n\nCall report_offset(dx, dy, confidence) with the pixel offset from the crosshair to the target element center.\ndx: pixels right (negative = left). dy: pixels down (negative = up).\nconfidence: 0.0 (uncertain) to 1.0 (certain).\n\nOnly report dx=0, dy=0 when the crosshair is within a few pixels of the target. If uncertain, set lower confidence so the loop keeps refining.\n\nTask: Click the Docs link in the navigation\nPrevious iterations:\n  iter 0: at (184,426) said dx=113 dy=-387 conf=0.80 -> (297,39)\nCall report_offset().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EjQKMgEMOdbHe37JduKXjrL/EgIPmYr0AVp6XQl5BBDXcpu5JLNrg9MZczF2U6XTY51CO5Pj"
+          },
+          "function": {
+            "arguments": "{\"dx\": 98, \"confidence\": 1, \"dy\": 0}",
+            "name": "report_offset"
+          },
+          "id": "call_70dd0c65a189450eb1db184aeb7a__thought__EjQKMgEMOdbHe37JduKXjrL/EgIPmYr0AVp6XQl5BBDXcpu5JLNrg9MZczF2U6XTY51CO5Pj",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "thinking_blocks": [],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EjQKMgEMOdbHe37JduKXjrL/EgIPmYr0AVp6XQl5BBDXcpu5JLNrg9MZczF2U6XTY51CO5Pj"
+        ]
+      }
+    },
+    "dx": 98.0,
+    "dy": 0.0,
+    "confidence": 1.0
+  }
+}

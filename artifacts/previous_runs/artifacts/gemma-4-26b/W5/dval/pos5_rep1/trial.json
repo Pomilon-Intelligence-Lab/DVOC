@@ -1,0 +1,82 @@
+{
+  "trial_id": "gemma-4-26b-W5-dval",
+  "model_key": "gemma-4-26b",
+  "task_id": "W5",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 13.3,
+  "iterations": 5,
+  "model_calls": 5,
+  "elapsed": 134.7,
+  "start_position": {
+    "x": 638,
+    "y": 124
+  },
+  "target_position": {
+    "x": 640,
+    "y": 357.5
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 638,
+        "y": 124
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": 322.0
+      },
+      "confidence": 1.0,
+      "distance_to_target": 233.5
+    },
+    {
+      "draft": {
+        "x": 638.0,
+        "y": 446.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -128.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 88.5
+    },
+    {
+      "draft": {
+        "x": 638.0,
+        "y": 382.0
+      },
+      "error": {
+        "dx": 0.0,
+        "dy": -40.0
+      },
+      "confidence": 0.8,
+      "distance_to_target": 24.6
+    },
+    {
+      "draft": {
+        "x": 638.0,
+        "y": 372.0
+      },
+      "error": {
+        "dx": -15.0,
+        "dy": -10.0
+      },
+      "confidence": 0.8,
+      "distance_to_target": 14.6
+    },
+    {
+      "draft": {
+        "x": 634.2,
+        "y": 369.5
+      },
+      "error": {
+        "dx": 8.0,
+        "dy": -20.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 13.3
+    }
+  ],
+  "error": null
+}

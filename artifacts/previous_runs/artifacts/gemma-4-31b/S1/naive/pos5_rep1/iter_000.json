@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"confidence\": 1, \"y\": 502, \"x\": 500}",
+            "name": "click_at"
+          },
+          "id": "call_abeed8b524be4dd39ddb57a39085__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the element with the text \"CLICK ME\".\nLooking at the image, there is a green button in the center that says \"CLICK ME\".\nI need to find the center coordinates of this button.\n\nThe button is located roughly at:\nx: from 452 to 548\ny: from 461 to 543\n\nCenter x = (452 + 548) / 2 = 1000 / 2 = 500\nCenter y = (461 + 543) / 2 = 1004 / 2 = 502\n\nLet me re-verify the coordinates.\nThe green area is bounded by a white border.\nWhite border left: 451\nWhite border right: 549\nWhite border top: 459\nWhite border bottom: 545\n\nCenter x = (451 + 549) / 2 = 500\nCenter y = (459 + 545) / 2 = 502\n\nConfidence is high as there is only one element.",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the element with the text \"CLICK ME\".\nLooking at the image, there is a green button in the center that says \"CLICK ME\".\nI need to find the center coordinates of this button.\n\nThe button is located roughly at:\nx: from 452 to 548\ny: from 461 to 543\n\nCenter x = (452 + 548) / 2 = 1000 / 2 = 500\nCenter y = (461 + 543) / 2 = 1004 / 2 = 502\n\nLet me re-verify the coordinates.\nThe green area is bounded by a white border.\nWhite border left: 451\nWhite border right: 549\nWhite border top: 459\nWhite border bottom: 545\n\nCenter x = (451 + 549) / 2 = 500\nCenter y = (459 + 545) / 2 = 502\n\nConfidence is high as there is only one element."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 500.0,
+    "y": 502.0
+  }
+}

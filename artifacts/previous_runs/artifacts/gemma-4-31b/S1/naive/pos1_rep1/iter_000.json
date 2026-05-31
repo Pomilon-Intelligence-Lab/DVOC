@@ -1,0 +1,40 @@
+{
+  "iteration": 0,
+  "model_input": "You are a UI clicking agent. Given a screenshot of a screen, determine the pixel coordinates of the target element.\n\nCall click_at(x, y, confidence) with the center pixel coordinates of the target element.\n\nCall click_at().",
+  "model_output": {
+    "raw_message": {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "index": 0,
+          "provider_specific_fields": {
+            "thought_signature": "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+          },
+          "function": {
+            "arguments": "{\"confidence\": 1, \"x\": 500, \"y\": 500}",
+            "name": "click_at"
+          },
+          "id": "call_4772fc8441e94a498616ac97e645__thought__EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw==",
+          "type": "function"
+        }
+      ],
+      "function_call": null,
+      "images": [],
+      "reasoning_content": "The user wants me to click on the button that says \"CLICK ME\".\nLooking at the image, there is a green button with the text \"CLICK ME\" in the center of the screen.\nThe button is located roughly in the middle.\nLet's estimate the coordinates.\nThe image dimensions are not explicitly given, but I can see the button.\nIt's a rectangle.\nCenter of the image is roughly where the button is.\nLet's pinpoint the coordinates.\nThe button is centered horizontally and vertically.\nHorizontal center: 500 / 1000 (assuming normalized coordinates)\nVertical center: 500 / 1000 (assuming normalized coordinates)\nLooking at the image, it's a small green box in the middle.\nX coordinate: middle of the image.\nY coordinate: middle of the image.\nLet's be more precise.\nThe box starts around x=450 and ends around x=550.\nThe box starts around y=460 and ends around y=540.\nCenter is approx (500, 500).",
+      "thinking_blocks": [
+        {
+          "type": "thinking",
+          "thinking": "The user wants me to click on the button that says \"CLICK ME\".\nLooking at the image, there is a green button with the text \"CLICK ME\" in the center of the screen.\nThe button is located roughly in the middle.\nLet's estimate the coordinates.\nThe image dimensions are not explicitly given, but I can see the button.\nIt's a rectangle.\nCenter of the image is roughly where the button is.\nLet's pinpoint the coordinates.\nThe button is centered horizontally and vertically.\nHorizontal center: 500 / 1000 (assuming normalized coordinates)\nVertical center: 500 / 1000 (assuming normalized coordinates)\nLooking at the image, it's a small green box in the middle.\nX coordinate: middle of the image.\nY coordinate: middle of the image.\nLet's be more precise.\nThe box starts around x=450 and ends around x=550.\nThe box starts around y=460 and ends around y=540.\nCenter is approx (500, 500)."
+        }
+      ],
+      "provider_specific_fields": {
+        "thought_signatures": [
+          "EiYKJGUyNDgzMGE3LTVjZDYtNDJmZS05OThiLWVlNTM5ZTcyYjljMw=="
+        ]
+      }
+    },
+    "x": 500.0,
+    "y": 500.0
+  }
+}

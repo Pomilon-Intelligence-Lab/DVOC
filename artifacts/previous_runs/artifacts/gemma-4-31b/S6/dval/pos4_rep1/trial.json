@@ -1,0 +1,118 @@
+{
+  "trial_id": "gemma-4-31b-S6-dval",
+  "model_key": "gemma-4-31b",
+  "task_id": "S6",
+  "method": "dvoc",
+  "success": true,
+  "final_dist": 15.0,
+  "iterations": 8,
+  "model_calls": 8,
+  "elapsed": 252.2,
+  "start_position": {
+    "x": 184,
+    "y": 426
+  },
+  "target_position": {
+    "x": 190,
+    "y": 370
+  },
+  "iteration_history": [
+    {
+      "draft": {
+        "x": 184,
+        "y": 426
+      },
+      "error": {
+        "dx": 6.0,
+        "dy": -94.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 56.3
+    },
+    {
+      "draft": {
+        "x": 190.0,
+        "y": 332.0
+      },
+      "error": {
+        "dx": 50.0,
+        "dy": 287.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 38.0
+    },
+    {
+      "draft": {
+        "x": 215.0,
+        "y": 475.5
+      },
+      "error": {
+        "dx": -32.0,
+        "dy": -170.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 108.4
+    },
+    {
+      "draft": {
+        "x": 207.0,
+        "y": 433.0
+      },
+      "error": {
+        "dx": 31.0,
+        "dy": -103.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 65.3
+    },
+    {
+      "draft": {
+        "x": 214.8,
+        "y": 407.2
+      },
+      "error": {
+        "dx": -28.0,
+        "dy": -64.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 44.7
+    },
+    {
+      "draft": {
+        "x": 207.8,
+        "y": 391.2
+      },
+      "error": {
+        "dx": -18.0,
+        "dy": -30.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 27.7
+    },
+    {
+      "draft": {
+        "x": 203.2,
+        "y": 383.8
+      },
+      "error": {
+        "dx": -20.0,
+        "dy": -5.0
+      },
+      "confidence": 0.95,
+      "distance_to_target": 19.1
+    },
+    {
+      "draft": {
+        "x": 198.2,
+        "y": 382.5
+      },
+      "error": {
+        "dx": -5.0,
+        "dy": -15.0
+      },
+      "confidence": 0.9,
+      "distance_to_target": 15.0
+    }
+  ],
+  "error": null
+}

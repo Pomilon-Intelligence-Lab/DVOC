@@ -1,0 +1,28 @@
+{
+  "trial_id": "gemma-4-31b-W1-naive",
+  "model_key": "gemma-4-31b",
+  "task_id": "W1",
+  "method": "naive",
+  "success": true,
+  "final_dist": 174.1,
+  "iterations": 2,
+  "model_calls": 2,
+  "elapsed": 37.0,
+  "start_position": null,
+  "target_position": {
+    "x": 640,
+    "y": 470.5
+  },
+  "iteration_history": [
+    {
+      "iteration": 1,
+      "response": {
+        "x": 500.0,
+        "y": 367.0,
+        "confidence": 0.9
+      },
+      "distance": 174.1
+    }
+  ],
+  "error": null
+}
