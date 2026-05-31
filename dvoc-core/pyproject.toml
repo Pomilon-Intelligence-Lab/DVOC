@@ -1,0 +1,16 @@
+[project]
+name = "dvoc-core"
+version = "0.1.0"
+description = "DVOC core loop engine"
+requires-python = ">=3.11"
+dependencies = [
+    "Pillow>=10.0.0",
+    "litellm>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

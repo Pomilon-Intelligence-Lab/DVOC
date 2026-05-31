@@ -1,0 +1,21 @@
+[project]
+name = "dvoc-os"
+version = "0.1.0"
+description = "DVOC desktop OS backend (X11, Wayland, Windows)"
+requires-python = ">=3.11"
+dependencies = [
+    "dvoc-core>=0.1.0",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+x11 = ["mss>=9.0.0", "pynput>=1.8.0"]
+windows = ["mss>=9.0.0", "pynput>=1.8.0"]
+wayland = []  # uses grim + ydotool + wtype (external binaries)
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

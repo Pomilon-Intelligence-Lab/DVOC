@@ -1,0 +1,17 @@
+[project]
+name = "dvoc-web"
+version = "0.1.0"
+description = "DVOC web browser backend (Playwright)"
+requires-python = ">=3.11"
+dependencies = [
+    "dvoc-core>=0.1.0",
+    "playwright>=1.40.0",
+    "Pillow>=10.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

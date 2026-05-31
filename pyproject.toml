@@ -1,0 +1,8 @@
+[project]
+name = "dvoc-protocol"
+version = "0.1.0"
+description = "Draft-Verify-Action Loop: multimodal UI grounding framework"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["dvoc-core/tests", "dvoc-os/tests", "dvoc-py/tests", "dvoc-web/tests"]
